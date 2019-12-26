@@ -11,8 +11,8 @@ function nowServing(deliLine){
 }
 
 function currentLine (line){
-  while (line.length > 0){
-    return "The line is currently: " + line.length + " " + line.toString()
+for (var i = 1; i < line.length; i++ )  {
+return "The line is currently: " + i + ". " + line[]
   }
     return "The line is currently empty."
 }
