@@ -15,6 +15,9 @@ function currentLine (line){
 for (var i = 0; i < line.length; i++ )  {
  newarray.push (" " + (i+1) + ". " + line[i])
   }
+  if (line !== [] ){
   return "The line is currently:" + newarray
+} else {
   return "The line is currently empty."
+}
 }
