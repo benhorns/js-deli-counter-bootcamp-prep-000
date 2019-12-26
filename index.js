@@ -13,7 +13,7 @@ function nowServing(deliLine){
 function currentLine (line){
   var newarray = []
 for (var i = 0; i < line.length; i++ )  {
- newarray.push ( i + ". " + line[i])
+ newarray.push ( (i+1) + ". " + line[i])
   }
   return "The line is currently: " + newarray
   return "The line is currently empty."
