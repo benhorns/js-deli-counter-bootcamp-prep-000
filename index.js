@@ -12,7 +12,7 @@ function nowServing(deliLine){
 
 function currentLine (line){
 for (var i = 1; i < line.length; i++ )  {
-return "The line is currently: " + i + ". " + line[]
+return "The line is currently: " + i + ". " + line[i]
   }
     return "The line is currently empty."
 }
