@@ -4,7 +4,6 @@ function takeANumber (katzDeli, name){
 }
 
 function nowServing(deliLine){
-  do {}
   while (deliLine !== [ ]){
     return "Currently serving " + deliLine.shift() + "."
   }
