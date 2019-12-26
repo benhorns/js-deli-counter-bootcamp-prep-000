@@ -8,5 +8,11 @@ function nowServing(deliLine){
     return "Currently serving " + deliLine.shift() + "."
   }
   return "There is nobody waiting to be served!"
+}
 
+function currentLine (line){
+  while (deliLine.length > 0){
+    return "The line is currently:"
+  }
+    return "The line is currently empty."
 }
